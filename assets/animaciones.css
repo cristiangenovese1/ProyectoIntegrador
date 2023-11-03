@@ -1,0 +1,27 @@
+.text_card1{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    z-index: 1;
+    opacity: 0; /* Inicialmente, el texto estará invisible */
+    transition: opacity 0.3s; /* Añade una transición suave a la propiedad de opacidad */
+  }
+
+.contenedor_card1:hover .text_card1{
+    opacity: 1; /* Cuando el contenedor es hover, el texto se volverá visible */
+  }
+
+  .text_card2{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    z-index: 1;
+    opacity: 0; /* Inicialmente, el texto estará invisible */
+    transition: opacity 0.3s; /* Añade una transición suave a la propiedad de opacidad */
+  }
+
+.contenedor_card2:hover .text_card2{
+    opacity: 1; /* Cuando el contenedor es hover, el texto se volverá visible */
+  }
+
+  button:active {
+    background-color: var(--colorheader2); /* Cambia el color de fondo al presionar el botón */
+  }
